@@ -1,0 +1,7 @@
+parameters:
+#    ibm_fight.example.class: IBM\FightBundle\Example
+
+services:
+#    ibm_fight.example:
+#        class: %ibm_fight.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

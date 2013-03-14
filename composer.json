@@ -1,0 +1,34 @@
+{
+    "name": "martinkulich/fight-bundle",
+    "description": "descrip",
+    "keywords": ["xxx","yyy"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Kulich",
+            "email": "martinoklich@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+
+        "symfony/framework-bundle": "2.2.*",
+        "twig/extensions": "1.0.*",
+        "symfony/assetic-bundle": "2.1.*",
+        "symfony/monolog-bundle": "2.2.*",
+        "sensio/distribution-bundle": "2.2.*",
+        "sensio/framework-extra-bundle": "2.2.*",
+        "sensio/generator-bundle": "2.2.*",
+    },
+    "autoload": {
+        "psr-0": { "IBM\\Bundle\\FightBundle": "" }
+    },
+    "target-dir": "IBM/Bundle/FightBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
